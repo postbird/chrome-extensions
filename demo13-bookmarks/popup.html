@@ -1,0 +1,44 @@
+<html>
+    <head>
+      <title>Water Popup</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+      <style>
+        .wrapper{ 
+          width: 750px;
+          height: 300px;
+        }
+        .btn {
+          margin-bottom: 20px;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="wrapper container">
+        <div class="col-md-12">
+          <button id="btn1" class="btn btn-primary">getTree</button>
+          <button id="btn2" class="btn btn-primary">getSubTree</button>
+          <button id="btn3" class="btn btn-primary">get</button>
+          <button id="btn4" class="btn btn-primary">getChildren</button>
+          <button id="btn5" class="btn btn-primary">getRecent</button>
+        </div>
+        <div class="col-md-12">
+          <textarea id="textarea" cols="30" rows="1">postbird</textarea>
+          <button id="btn6" class="btn btn-primary">search</button>
+        </div>
+        <div class="col-md-12">
+          <input type="text" id="title" placeholder="title..." value="postbird">
+          <input type="text" id="url" placeholder="url..." value="http://www.ptbird.cn">
+          <button id="btn7" class="btn btn-primary">create</button>
+        </div>
+        <div class="col-md-12">
+          <button id="btn8" class="btn btn-primary">move</button>
+        </div>
+        <div class="col-md-12">
+          <input type="text" id="titleUpdate" placeholder="title..." value="postbird2222222">
+          <input type="text" id="urlUpdate" placeholder="url..." value="http://www.ptbird.cn">
+          <button id="btn9" class="btn btn-primary">update</button>
+        </div>
+      </div>
+      <script src="popup.js"></script>
+    </body>
+  </html>
