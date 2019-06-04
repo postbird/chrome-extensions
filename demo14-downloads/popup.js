@@ -22,7 +22,7 @@ btn1.onclick = () => {
 
 btn2.onclick = () => {
     const options = {
-        finalUrlRegex: '.zip$'
+        finalUrlRegex: '.jpg$'
      }
     chrome.downloads.search(options, (res) => {
         console.log(res);
